@@ -42,10 +42,25 @@ top:40px;
         grid-template-columns:1fr ;
         padding:20px;
 
+
     }
     .sidebar
     {
         position: static;
+    }
+}
+@media screen and (max-width:500px)
+{
+    .main-container
+    {   grid-template-columns:1fr ;
+        padding: 5px 0px;
+
+       
+    }
+    .sidebar
+    {
+        position:static;
+        margin:5px 5px;
     }
 }
 .profile
@@ -139,6 +154,13 @@ padding: 30px;
          z-index: 10;
 
 }
+/* @media screen and (max-width:500px)
+{
+    .main-content
+{  
+     margin:0px 5px;
+}
+} */
 
 /* Navigation */
 
@@ -351,4 +373,19 @@ position: relative;
     border-radius: 5px;
     font-size: 0.75 rem;
     margin-right: 5px;;
+ }
+ @media screen and (max-width:500px) {
+   
+ .card
+ {
+   display:flex;
+   flex-direction: column;
+  
+
+ }
+ .project img{
+    height:120px;
+    width: 100%;
+ }
+    
  }
