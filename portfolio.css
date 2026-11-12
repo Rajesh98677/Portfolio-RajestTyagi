@@ -411,9 +411,9 @@ position: relative;
 
 .project .gatekeeper-image {
     object-fit: contain;
-    padding: 35px;
-    background-color: #171717;
-    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+    padding: 20px;
+    background-color: transparent;
+    filter: none;
 }
 
 .project-links {
@@ -463,16 +463,14 @@ position: relative;
     }
 }
 
-
-.skills-note {
-    margin-top: 22px;
-    padding: 14px 16px;
-    background-color: #1e1e1e;
-    border: 1px solid #3a3a3a;
-    border-radius: 8px;
-    color: #a0a0a0;
+.social a {
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
 
-.skills-note strong {
-    color: #ffbf00;
+.social a img {
+    border: none;
+    text-decoration: none;
+    outline: none;
 }
